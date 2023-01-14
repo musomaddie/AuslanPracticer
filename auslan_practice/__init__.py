@@ -17,8 +17,8 @@ def create_app(test_config=None):
     except OSError:
         pass
 
-    @app.route("/")
-    def main():
-        return "Hello world!"
+    from auslan_practice import main_page
+
+    app.register_blueprint(main_page.bp)
 
     return app

@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<title>{% block title %}{% endblock %} - Practice Auslan</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+{#TODO: this is where the heading bar goes.#}
+<section class="content">
+    {% block content %} {% endblock %}
+</section>
+
+{#TODO: this is where the footer bar goes.#}

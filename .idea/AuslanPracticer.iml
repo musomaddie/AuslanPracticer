@@ -12,6 +12,15 @@
     <option name="requirementsPath" value="requirements" />
     <option name="removeUnused" value="true" />
   </component>
+  <component name="TemplatesService">
+    <option name="TEMPLATE_CONFIGURATION" value="Jinja2" />
+    <option name="TEMPLATE_FOLDERS">
+      <list>
+        <option value="$MODULE_DIR$/auslan_practice/templates" />
+        <option value="$MODULE_DIR$/auslan_practice/templates/main_page" />
+      </list>
+    </option>
+  </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="py.test" />
   </component>
