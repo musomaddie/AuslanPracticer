@@ -2,9 +2,27 @@
 <title>{% block title %}{% endblock %} - Practice Auslan</title>
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 
-{#TODO: this is where the heading bar goes.#}
+<ul>
+    <li>Begin Practice</li>
+    <li>Signs
+        <ul>
+            <li>View All Signs</li>
+            <li>Add New Sign</li>
+            <li>Configure Signs</li>
+        </ul>
+    </li>
+    <li>Sentence Rule
+        <ul>
+            <li>View All Rules</li>
+            <li>Add New Rule</li>
+            <li>Configure Rules</li>
+        </ul>
+    </li>
+</ul>
+<ul>
+    <li>About</li>
+</ul>
 <section class="content">
     {% block content %} {% endblock %}
 </section>
 
-{#TODO: this is where the footer bar goes.#}
