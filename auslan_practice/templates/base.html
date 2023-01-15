@@ -2,26 +2,28 @@
 <title>{% block title %}{% endblock %} - Practice Auslan</title>
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 
-<ul>
-    <li>Begin Practice</li>
-    <li>Signs
-        <ul>
-            <li>View All Signs</li>
-            <li>Add New Sign</li>
-            <li>Configure Signs</li>
-        </ul>
+{#<div class="heading">#}
+<ul class="heading">
+    <li class="heading-content">Begin Practice</li>
+    <li class="heading-content dropdown">Signs
+        <div class="dropdown-content">
+            <ul>
+                <li>View All Signs</li>
+                <li>Add New Sign</li>
+                <li>Configure Signs</li>
+            </ul>
+        </div>
     </li>
-    <li>Sentence Rule
+    <li class="heading-content dropdown">Sentence Rule
         <ul>
             <li>View All Rules</li>
             <li>Add New Rule</li>
             <li>Configure Rules</li>
         </ul>
     </li>
+    <li class="heading-content">About</li>
 </ul>
-<ul>
-    <li>About</li>
-</ul>
+
 <section class="content">
     {% block content %} {% endblock %}
 </section>
