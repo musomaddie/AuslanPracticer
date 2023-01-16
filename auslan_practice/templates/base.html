@@ -2,27 +2,41 @@
 <title>{% block title %}{% endblock %} - Practice Auslan</title>
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 
-{#<div class="heading">#}
-<ul class="heading">
-    <li class="heading-content">Begin Practice</li>
-    <li class="heading-content dropdown">Signs
-        <div class="dropdown-content">
-            <ul>
-                <li>View All Signs</li>
-                <li>Add New Sign</li>
-                <li>Configure Signs</li>
-            </ul>
-        </div>
-    </li>
-    <li class="heading-content dropdown">Sentence Rule
-        <ul>
-            <li>View All Rules</li>
-            <li>Add New Rule</li>
-            <li>Configure Rules</li>
-        </ul>
-    </li>
-    <li class="heading-content">About</li>
-</ul>
+<nav role="navigation">
+    <ul class="header-list hList">
+        <li>
+            <a href="#" class="menu-item menu">
+                <h2 class="menu-title">Begin Practice </h2></a>
+        </li>
+        <li>
+            <a href="#" class="menu-item menu">
+                <h2 class="menu-title">Signs</h2>
+                <ul class="menu-dropdown">
+                    <li>View All Signs</li>
+                    <li>Add New Sign</li>
+                    <li>Configure Signs</li>
+                </ul>
+            </a>
+        </li>
+        <li>
+            <a href="#" class="menu-item menu">
+                <h2 class="menu-title menu-title-2nd">
+                    Sentence Rule </h2>
+                <ul class="menu-dropdown">
+                    <li>View All Rules</li>
+                    <li>Add New Rule</li>
+                    <li>Configure Rules</li>
+                </ul>
+            </a>
+        </li>
+        <li>
+            <a href="#" class="menu-item menu">
+                <h2 class="menu-title menu-title-3rd">
+                    About </h2>
+            </a>
+        </li>
+    </ul>
+</nav>
 
 <section class="content">
     {% block content %} {% endblock %}
