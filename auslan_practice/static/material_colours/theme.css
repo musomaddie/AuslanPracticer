@@ -1,4 +1,4 @@
-@import url(tokens.css);
+@import url(../tokens.css);
 @import url(colors.module.css);
 @import url(typography.module.css);
 @import url(theme.light.css) (prefers-color-scheme: light);
