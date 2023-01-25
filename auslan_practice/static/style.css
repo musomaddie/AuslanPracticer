@@ -1,37 +1,49 @@
-/*NEW STUFF HERE!*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
 
-a {
-    text-decoration: none;
+body {
+    /*Removes the whitespace around the nav bar.*/
+    margin: 0;
+    background: var(--color-background-light);
 }
 
 nav {
-    font-family: monospace;
+    font-family: var(--headline-medium-font-family-name);
+    font-style: var(--headline-medium-font-family-style);
+    font-weight: var(--headline-medium-font-weight);
+    font-size: var(--headline-medium-font-size);
+    letter-spacing: var(--headline-medium-letter-spacing);
+    line-height: var(--headline-medium-line-height);
+}
+
+nav a {
+    text-decoration: none;
 }
 
 .header-list, .dropdown {
-    background-color: darkorange;
     list-style: none;
     margin: 0;
     padding-left: 0;
+    width: 100%;
+    background: var(--color-primary-container-light);
 }
 
 .header-item {
-    color: #fff;
-    background: darkorange;
-    display: block;
-    float: left;
-    padding: 1rem;
+    color: var(--color-on-primary-container-light);
+    background: var(--color-primary-container-light);
+    display: inline-block;
+    padding: 1rem 2rem;
     position: relative;
     text-decoration: none;
     transition-duration: 0.5s;
 }
 
 .header-item a {
-    color: #fff;
+    color: var(--color-on-primary-container-light);
 }
 
+
 .header-item:hover, .header-item:focus-within {
-    background: red;
+    background: var(--color-tertiary-container-light);
     cursor: pointer;
 }
 
@@ -40,7 +52,15 @@ nav {
 }
 
 .dropdown {
-    background: orange;
+    font-family: var(--headline-small-font-family-name);
+    font-style: var(--headline-small-font-family-style);
+    font-weight: var(--headline-small-font-weight);
+    font-size: var(--headline-small-font-size);
+    letter-spacing: var(--headline-small-letter-spacing);
+    line-height: var(--headline-small-line-height);
+    list-style: none;
+
+    background: var(--color-primary-container-light);
     visibility: hidden;
     opacity: 0;
     min-width: 5rem;
@@ -64,3 +84,4 @@ nav {
     clear: both;
     width: 100%;
 }
+
