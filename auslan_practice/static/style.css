@@ -1,3 +1,5 @@
+/*NEW STUFF HERE!*/
+
 a {
     text-decoration: none;
 }
@@ -6,14 +8,14 @@ nav {
     font-family: monospace;
 }
 
-ul {
-    background: darkorange;
+.header-list, .dropdown {
+    background-color: darkorange;
     list-style: none;
     margin: 0;
     padding-left: 0;
 }
 
-li {
+.header-item {
     color: #fff;
     background: darkorange;
     display: block;
@@ -24,21 +26,20 @@ li {
     transition-duration: 0.5s;
 }
 
-li a {
+.header-item a {
     color: #fff;
 }
 
-li:hover,
-li:focus-within {
+.header-item:hover, .header-item:focus-within {
     background: red;
     cursor: pointer;
 }
 
-li:focus-within a {
+.header-item:focus-within a {
     outline: none;
 }
 
-ul li ul {
+.dropdown {
     background: orange;
     visibility: hidden;
     opacity: 0;
@@ -50,16 +51,16 @@ ul li ul {
     display: none;
 }
 
-ul li:hover > ul,
-ul li:focus-within > ul,
-ul li ul:hover,
-ul li ul:focus {
+.header-item:hover > ul,
+.header-item:focus-within > ul,
+.dropdown:hover,
+.dropdown:focus {
     visibility: visible;
     opacity: 1;
     display: block;
 }
 
-ul li ul li {
+.dropdown li {
     clear: both;
     width: 100%;
 }
