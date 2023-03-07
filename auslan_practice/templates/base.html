@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<title>{% block title %}{% endblock %} - Practice Auslan</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='tokens.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<nav role="navigation">
+    <ul class="header-list">
+        <li class="header-item">
+            <a href="#">Start Practicing</a>
+        </li>
+        <li class="header-item">
+            <a href="#">Signs</a>
+            <ul class="dropdown">
+                <li class="header-item">
+                    <a href="#">View All Signs</a></li>
+                <li class="header-item">
+                    <a href="#">New Sign</a></li>
+                <li class="header-item">
+                    <a href="#">Configure Signs</a></li>
+            </ul>
+        </li>
+        <li class="header-item">
+            <a href="#">Sentence Rules</a>
+            <ul class="dropdown">
+                <li class="header-item">
+                    <a href="#">View All Rules</a>
+                </li>
+                <li class="header-item">
+                    <a href="#">Add New Rule</a>
+                </li>
+                <li class="header-item">
+                    <a href="#">Configure Rules</a>
+                </li>
+            </ul>
+        </li>
+        <li class="header-item">
+            <a href="#">About</a>
+        </li>
+    </ul>
+</nav>
+
+<section class="content">
+    {% block content %} {% endblock %}
+</section>
+
+<div class="footer">
+    Practice Auslan
+    About Us
+    Begin Practice
+
+    Signs
+    <ul>
+        <li>View All Signs</li>
+        <li>Add New Sign</li>
+        <li>Configure Signs</li>
+    </ul>
+    <ul>
+        <li>View All Rules</li>
+        <li>Add New Rule</li>
+        <li>Configure Rules</li>
+    </ul>
+</div>
