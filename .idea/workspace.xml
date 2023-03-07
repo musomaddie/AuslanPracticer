@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="641ac143-fea4-4de7-a34e-d8fbd1cefce9" name="Changes" comment="Restyled the nav header layout" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="create_main_page" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProjectId" id="2KKxCY2rHn2YRUX6TVuTGXk8Iy8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/musom/PycharmProjects/AuslanPracticer/auslan_practice&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\musom\PycharmProjects\AuslanPracticer\auslan_practice\static" />
+      <recent name="C:\Users\musom\PycharmProjects\AuslanPracticer\auslan_practice" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Flask (auslan_practice)" type="Python.FlaskServer" nameIsGenerated="true">
+      <module name="AuslanPracticer" />
+      <option name="target" value="C:\Users\musom\PycharmProjects\AuslanPracticer\auslan_practice" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\musom\AppData\Local\Programs\Python\Python310\python.exe" />
+      <option name="SDK_NAME" value="Python 3.10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="641ac143-fea4-4de7-a34e-d8fbd1cefce9" name="Changes" comment="" />
+      <created>1673736948880</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673736948880</updated>
+      <workItem from="1673736950053" duration="144000" />
+      <workItem from="1673737224579" duration="13560000" />
+      <workItem from="1674590360461" duration="6328000" />
+      <workItem from="1674964598087" duration="21000" />
+      <workItem from="1678216069001" duration="166000" />
+    </task>
+    <task id="LOCAL-00001" summary="Created basic hello world page.">
+      <created>1673738338641</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673738338641</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Created extra templating for the main page - works now (kinda)">
+      <created>1673739037128</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673739037128</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added HTML for heading bar.">
+      <created>1673740281247</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673740281247</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added HTML for heading bar.">
+      <created>1673740500860</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673740500860</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added footer HTML">
+      <created>1673740653553</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673740653553</updated>
+    </task>
+    <task id="LOCAL-00006" summary="CSS attempt dropdown number 1 - I hate it.">
+      <created>1673743004233</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673743004233</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Working dropdown #2 - still not quite right. &#10;&#10;Taken from https://codepen.io/kkrueger/pen/jOrYaM">
+      <created>1673853819047</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673853819047</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Simple working dropdown - enough to go with for now :)">
+      <created>1673853924617</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1673853924617</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Dropdown now works with my specified colours :)">
+      <created>1674675725859</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1674675725859</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added all the material files -&gt; but haven't linked them anywhere">
+      <created>1674675953644</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1674675953644</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Linked the material design token files">
+      <created>1674676420484</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1674676420484</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added own typography 1 and changing color variable names.">
+      <created>1674677339731</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1674677339731</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added own typography 1 and changing color variable names.">
+      <created>1674678181621</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1674678181621</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added own typography 1 and changing color variable names.">
+      <created>1674678772236</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1674678772236</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Restyled the nav header layout">
+      <created>1674678868197</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1674678868198</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="create_main_page" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Created basic hello world page." />
+    <MESSAGE value="Created extra templating for the main page - works now (kinda)" />
+    <MESSAGE value="Added HTML for heading bar." />
+    <MESSAGE value="Added footer HTML" />
+    <MESSAGE value="CSS attempt dropdown number 1 - I hate it." />
+    <MESSAGE value="Working dropdown #2 - still not quite right. &#10;&#10;Taken from https://codepen.io/kkrueger/pen/jOrYaM" />
+    <MESSAGE value="Simple working dropdown - enough to go with for now :)" />
+    <MESSAGE value="Dropdown now works with my specified colours :)" />
+    <MESSAGE value="Added all the material files -&gt; but haven't linked them anywhere" />
+    <MESSAGE value="Linked the material design token files" />
+    <MESSAGE value="Added own typography 1 and changing color variable names." />
+    <MESSAGE value="Restyled the nav header layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Restyled the nav header layout" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AuslanPracticer$Flask__auslan_practice_auslan_practice_.coverage" NAME="Flask (auslan_practice) Coverage Results" MODIFIED="1674075683380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AuslanPracticer$Flask__auslan_practice_.coverage" NAME="Flask (auslan_practice) Coverage Results" MODIFIED="1674676206070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
